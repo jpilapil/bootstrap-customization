@@ -1,0 +1,14 @@
+// Import first to access these vvv
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Custom theming of Bootstrap
+@import "theme.scss";
+
+// Bootstrap
+@import "bootstrap/bootstrap.scss";
+
+// Style overwriting Bootstrap
+@import "style.scss";
